@@ -2,8 +2,7 @@
   "receptionistName": "Reception Tablet 1",
   "deviceId": "IPAD-URBANEST-01",
   "googleSheetUrl": "",
-  "googleWebAppUrl": "https://script.google.com/macros/s/AKfycby90_imtpODBf04dGsD15RQIIlP1vmJ-ehh8tvggS1YFPs6dqMwgFleUY0qU-jkALuruw/exec",
-  "autoSyncGoogleSheets": true,
+"googleWebAppUrl": "https://script.google.com/a/macros/urbanestrealty.in/s/AKfycbyAyX8-p3pUT_KdPOTTW1Glbex_NDYXH-KiXeNfNPdCDRTkVZbx_7H12YcBz-VPyujvhQ/exec"  "autoSyncGoogleSheets": true,
   "projects": [
     {
       "id": "p1",
