@@ -1,0 +1,6 @@
+{
+  "name": "Urbanest Customer Check-in",
+  "description": "Lead Capture & Sales Discussion app for Urbanest Realty sales office on tablets and browsers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

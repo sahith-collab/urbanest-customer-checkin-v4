@@ -1,0 +1,54 @@
+{
+  "receptionistName": "Reception Tablet 1",
+  "deviceId": "IPAD-URBANEST-01",
+  "googleSheetUrl": "",
+  "googleWebAppUrl": "https://script.google.com/macros/s/AKfycby90_imtpODBf04dGsD15RQIIlP1vmJ-ehh8tvggS1YFPs6dqMwgFleUY0qU-jkALuruw/exec",
+  "autoSyncGoogleSheets": true,
+  "projects": [
+    {
+      "id": "p1",
+      "name": "Eastfield",
+      "type": "Apartments",
+      "configurations": [
+        "2 BHK",
+        "3 BHK",
+        "4 BHK",
+        "Penthouse"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Serene Exotica",
+      "type": "Villas",
+      "configurations": [
+        "1200-1500 sft.",
+        "1500-1800 sft.",
+        "1800-2400 sft.",
+        "2400-3000 sft."
+      ]
+    }
+  ],
+  "executives": [
+    "Sathish",
+    "Hamza",
+    "Anup",
+    "Haritha",
+    "Nandeesh",
+    "Pooja",
+    "Kushal"
+  ],
+  "receptionists": [
+    "Kavita Rao",
+    "Sneha Patel",
+    "Neha Sharma",
+    "Reception Desk 1"
+  ],
+  "budgetOptions": [
+    "Under ₹75 Lakhs",
+    "₹75 Lakhs – ₹1 Cr",
+    "₹1 Cr – ₹1.25 Cr",
+    "₹1.25 Cr – ₹1.5 Cr",
+    "₹1.5 Cr – ₹2 Cr",
+    "₹2 Cr+"
+  ]
+}
