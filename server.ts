@@ -189,15 +189,28 @@ function generateLeadId(leads: any[]): string {
 // Helper: Push lead to Google Apps Script Web App if configured
 async function syncToGoogleSheets(lead: any, settings: any) {
   if (!settings.googleWebAppUrl) return;
+
   try {
-    await fetch(settings.googleWebAppUrl, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+    const response = await fetch(settings.googleWebAppUrl, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
       body: JSON.stringify(lead),
+      redirect: "follow",
     });
-    console.log(`Synced lead ${lead.leadId} to Google Sheets Web App`);
+
+    const text = await response.text();
+
+    console.log("Google Apps Script Response:", response.status, text);
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}: ${text}`);
+    }
+
+    console.log(`Successfully synced ${lead.leadId} to Google Sheets`);
   } catch (err) {
-    console.error('Failed to sync to Google Sheets Web App:', err);
+    console.error("Google Sheets sync failed:", err);
   }
 }
 
